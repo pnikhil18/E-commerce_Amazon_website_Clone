@@ -230,14 +230,71 @@
 .shopsection{
     
     height:440px;
-
+    background-color: rgba(180, 188, 35, 0.5);
      display:flex;
    justify-content: space-evenly;
     
 }
-#nikhil{
+.items{
     height:420px;
     width:23%; 
-    background-color: #c2c9d0;  
-    border: 2px solid red;
+    background-color: #ffffff;  
+    display:inline;
+    
+    justify-content: center;
 }
+.top{
+    height:50px;
+    width:90%;
+    display:flex;    
+    /* justify-content: center; */
+    align-items: center;
+    margin-left:15px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform:capitalize;
+}
+
+.boxx{
+    height:313px;
+    width:90%;
+    margin-left:15px;
+}
+.boximg1 {
+    background-image: url("box1_image.jpg");
+    background-size:cover;
+}
+
+.boximg2 {
+    background-image: url("box2_image.jpg");
+    background-size:cover;
+}
+
+.boximg3 {
+    background-image: url("box3_image.jpg");
+    background-size:cover;
+}
+
+.boximg4 {
+    background-image: url("box4_image.jpg");
+    background-size:cover;
+}
+
+.boximg5 {
+    background-image: url("box5_image.jpg");
+    background-size:cover;
+}
+
+.boximg6 {
+    background-image: url("box6_image.jpg");
+    background-size:cover;
+}
+.boximg7 {
+    background-image: url("box7_image.jpg");
+    background-size:cover;
+}
+.boximg8 {
+    background-image: url("box8_image.jpg");
+    background-size:cover;
+}
+
