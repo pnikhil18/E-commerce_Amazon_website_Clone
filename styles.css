@@ -262,7 +262,7 @@
 }
 .boximg1 {
     background-image: url("box1_image.jpg");
-    background-size:cover;
+    background-size:contain;
 }
 
 .boximg2 {
@@ -297,4 +297,78 @@
     background-image: url("box8_image.jpg");
     background-size:cover;
 }
+.see{
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 15px;
+    
+}
+a{
+    text-decoration: none;
+    color: #007185;
+}
+a:hover{
+    color:red;
+}
+/*-----------------footer-------------*/
 
+footer{
+    height: 500px;
+    background-color: #232f3e;
+}
+.back{
+    height:50px;
+    background-color:#2f3845;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;    
+}
+.back:hover{
+    background-color: #3c495b;
+    color:white;
+}
+
+
+.section1{
+    height:350px;
+    display:flex;
+    justify-content: center;
+    margin-top: 25px;
+
+    border-bottom:2px solid rgba(255, 255, 255,0.1);
+    text-transform: capitalize;
+}
+
+.FooterLinkCol{
+    height:200px;
+    width:180px;
+}
+.FooterLinkColSpace{
+    height:200px;
+    width:80px;
+}
+
+.navFooterhead{
+    color: #ffffff;
+    margin:6px 0px 14px;
+    font-size:16px;
+    font-weight: 900;
+}
+.cul{
+  color: rgba(255, 255, 255,0.7);
+  font-size: 16px;  
+}
+
+.cul:hover {
+    text-decoration: underline;
+    color:white;
+}
+
+ul{
+    padding:0px 0px 0px 0px;
+}
+li{
+    list-style: none;
+    margin:0px 0px 10px;
+}
