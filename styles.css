@@ -6,7 +6,7 @@
 /*------main bar---*/
 .navbar{
     height: 60px;
-    background-color:rgb(15, 17, 17);
+    background-color:#0f1111;
      display:flex;
      justify-content: space-between;
      align-items: center;
@@ -313,7 +313,7 @@ a:hover{
 /*-----------------footer-------------*/
 
 footer{
-    height: 500px;
+    height: 495px;
     background-color: #232f3e;
 }
 .back{
@@ -331,7 +331,7 @@ footer{
 
 
 .section1{
-    height:350px;
+    height:300px;
     display:flex;
     justify-content: center;
     margin-top: 25px;
@@ -372,3 +372,78 @@ li{
     list-style: none;
     margin:0px 0px 10px;
 }
+
+.section3{
+    height:70px;
+    display: flex;
+    background-color:#1a232f;
+    justify-content: center;
+    align-items: center;
+}
+.footlogo{
+    margin-right:70px;
+}
+.boxes{
+    height:33px;
+    width:120px;
+    border:2px solid rgba(255, 255, 255,0.3);
+    border-radius: 5px;
+    margin-right:10px;
+    display:flex;
+    align-items:center;
+}
+
+.bx1{
+    color:white;
+    font-size:13px;
+}
+.bx1 i{
+    margin-right:10px;
+    margin-left: 8px;
+}
+
+.bx2{
+    color:white;
+    font-size:13px;
+}
+.bx2 i{
+    margin-right:10px;
+    margin-left: 8px;
+}
+
+.bx3{
+    color:white;
+    font-size:13px;
+}
+.bx3 i{
+    margin-right:10px;
+    margin-left: 8px;
+}
+
+.copy-right{
+    height:40px;
+    background-color: #1a232f;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 12px;
+}
+.copy-right2{
+    height:20px;
+    background-color: #1a232f;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    color:white;
+    font-size: 12px;
+}
+#cpyLinks{
+    color:white;
+}
+
+#cpyLinks:hover{
+    text-decoration: underline;
+}
+
+
